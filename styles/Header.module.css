@@ -1,0 +1,35 @@
+.header{
+    background-image:linear-gradient(to right,rgb(0 0 0 / .8),rgb(0 0 0 / .7)),url('../public/img/header.jpg');
+    padding: 6rem 0;
+    background-size: cover;
+    background-position: 50%
+}
+.barra{
+    display: grid;
+  
+    
+}
+@media (min-width: 768px) {
+    .barra{
+        display: flex;
+        justify-content: space-around;
+      
+        
+    }
+}
+.navegacion  a{
+ color: white;
+ text-decoration: none;
+}
+.navegacion a:hover {
+    color: rgb(228, 181, 62);
+  }
+.navegacion{
+
+ margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+
+}
