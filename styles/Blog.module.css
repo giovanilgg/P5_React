@@ -16,3 +16,26 @@
     }
      
 }
+.noEncontrado{
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.noEncontrado a{
+
+text-decoration: none;
+background-color: rgb(38, 111, 180);
+padding: 3rem 7rem;
+border-radius: 2rem;
+color: white;
+
+}
+.noEncontrado a:hover{
+    background-color: rgb(214, 119, 42);
+
+}
+
+
+

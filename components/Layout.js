@@ -1,9 +1,9 @@
-
 import Header from "./Header";
-import Head  from "next/head";
+import Head from "next/head";
 import Footer from "./Footer";
 
-const Layout = ({ children, pagina }) => {
+const Layout = ({ children, pagina, guitarra }) => {
+  console.log(guitarra);
   return (
     <div>
       <Head>
@@ -13,11 +13,14 @@ const Layout = ({ children, pagina }) => {
           content="Sitio Web de venta de guitarras"
         ></meta>
       </Head>
-      <Header></Header>
+      <Header guitarra={guitarra}></Header>
       {children}
       <Footer></Footer>
     </div>
   );
+};
+Layout.defaultProps = {
+  guitarra: null
 };
 
 export default Layout;

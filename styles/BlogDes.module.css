@@ -1,0 +1,19 @@
+.articulo{
+
+
+    margin-bottom: 3rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    
+   
+    
+}
+.parrafos{
+
+    white-space: pre-wrap;
+}
+.fecha{
+
+    font-size: 1.6rem;
+    color: var(--primary);
+}
